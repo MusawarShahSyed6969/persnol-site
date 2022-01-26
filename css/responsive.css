@@ -1,0 +1,20 @@
+/* navbar  */
+
+.navbar::before{
+    width: 124%;
+}
+.navbar li a{
+    padding: 9px 27px;
+}
+
+.heading::before{
+    width: 124%;
+    height: 93%;
+}
+
+
+.mypic{
+    width: 45%;
+    top: 26%;
+    width: 45%;
+}
