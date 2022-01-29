@@ -4,17 +4,24 @@
     width: 124%;
 }
 .navbar li a{
-    padding: 9px 27px;
+    padding: 9px 12px;
 }
-
+.logo img{
+    width: 55%;
+}
+.heading h2,h3{
+    margin-left: 40%;
+ 
+}
 .heading::before{
     width: 124%;
     height: 93%;
 }
 
-
 .mypic{
     width: 45%;
     top: 26%;
     width: 45%;
+    left: 33%;
 }
+
