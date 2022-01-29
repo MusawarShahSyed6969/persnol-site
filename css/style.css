@@ -47,12 +47,13 @@
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 88%;
     background-size: cover;
     z-index: -1;
     background:url('../img/pexels-pixabay-270348.jpg');
     top: 7%;
     left: 0%;
+    border-bottom: 11px solid black;
 }
 
 .heading{
@@ -113,8 +114,66 @@
 
 
 
+ /* Body 1 */
 
+ .Skills-h2{
+     /* position: absolute;
+     top: 97%;
+     left: 10%; */
+     position: absolute;
+    top: 97%;
+    border: 5px solid red;
+    left: 2%;
+    width: 30%;
+    text-align: center;
+    height: 30%;
+ }
+ .Skills li{
+    position: absolute;
+    top: 103%;
+    left: 12%;
+}
+/* MySelf */
 
+ .MySelf-h2{
+     /* position: absolute;
+     top: 97%;
+     left: 10%; */
+     position: absolute;
+    top: 97%;
+    border: 5px solid red;
+    left:35%;
+    width: 30%;
+    text-align: center;
+    height: 30%;
+ }
+ .MySelf p{
+    position: absolute;
+    top: 103%;
+    left: 37%;
+    width: 29%;
+}
+
+ /* MoreAboutMe */
+ 
+ .MoreAboutMe-h2{
+    /* position: absolute;
+    top: 97%;
+    left: 10%; */
+    position: absolute;
+   top: 97%;
+   border: 5px solid red;
+   left:69%;
+   width: 30%;
+   text-align: center;
+   height: 30%;
+}
+
+.MoreAboutMe p{
+    position: absolute;
+    top: 103%;
+    left: 70%;
+}
 
 
 

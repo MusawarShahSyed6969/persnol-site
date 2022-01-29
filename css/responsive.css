@@ -25,3 +25,47 @@
     left: 33%;
 }
 
+
+
+/* Skills */
+
+.Skills-h2{
+    top: 103%;
+    left: 10%;
+    width: 99%;
+    height: 30%;
+}
+.Skills li{
+    position: absolute;
+    top: 110%;
+    left: 42%;
+}
+
+/* MySelf */
+
+.MySelf-h2{
+    top: 139%;
+    left: 10%;
+    width: 99%;
+}
+
+.MySelf p{
+    top: 145%;
+    left: 32%;
+    width: 57%;
+}
+
+
+.MoreAboutMe-h2{
+
+    top: 175%;
+    left: 10%;
+    width: 99%;
+}
+
+.MoreAboutMe p{
+    top: 183%;
+    left: 29%;
+    width: 69%;
+}
+
