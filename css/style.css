@@ -1,6 +1,18 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+
+
+h2{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Bree Serif', serif;   
 }
 
 .navbar::before{
@@ -48,12 +60,14 @@
     position: absolute;
     width: 100%;
     height: 88%;
-    background-size: cover;
+    /* background-size: cover; */
     z-index: -1;
     background:url('../img/pexels-pixabay-270348.jpg');
     top: 7%;
     left: 0%;
     border-bottom: 11px solid black;
+
+
 }
 
 .heading{
@@ -116,29 +130,60 @@
 
  /* Body 1 */
 
- .Skills-h2{
-     /* position: absolute;
-     top: 97%;
-     left: 10%; */
+ .skillstar_img{
+     width: 4%;
      position: absolute;
+     top: 119%;
+     left: 14%;
+     z-index: 1;
+ }
+ 
+
+ .Skills-h2{
+
+    position: absolute;
     top: 97%;
     border: 5px solid red;
     left: 2%;
     width: 30%;
     text-align: center;
     height: 30%;
+    background: rgb(98, 174, 245);
  }
- .Skills li{
+ .Skills-1{
     position: absolute;
     top: 103%;
-    left: 12%;
+    left: 4%;
+    font-size: 113%;
+}
+ .Skills-2{
+    position: absolute;
+    top: 108%;
+    left: 4%;
+    width: 21%;
+    font-size: 113%;
+}
+ .Skills-3{
+    position: absolute;
+    top: 114%;
+    left: 4%;
+    width: 21%;
+    font-size: 113%;
 }
 /* MySelf */
 
+.myselfman_img{
+    width: 4%;
+    position: absolute;
+    top: 118%;
+    left: 49%;
+    z-index: 1;
+    
+}
+
+
  .MySelf-h2{
-     /* position: absolute;
-     top: 97%;
-     left: 10%; */
+
      position: absolute;
     top: 97%;
     border: 5px solid red;
@@ -146,15 +191,25 @@
     width: 30%;
     text-align: center;
     height: 30%;
+    background: darkturquoise;
  }
  .MySelf p{
     position: absolute;
     top: 103%;
     left: 37%;
     width: 29%;
+    font-size: 113%;
 }
 
  /* MoreAboutMe */
+
+ .plus_img{
+    width: 4%;
+    position: absolute;
+    top: 118%;
+    left: 84%;
+    z-index: 1;
+}
  
  .MoreAboutMe-h2{
     /* position: absolute;
@@ -167,13 +222,73 @@
    width: 30%;
    text-align: center;
    height: 30%;
+   background: royalblue;
 }
 
 .MoreAboutMe p{
     position: absolute;
     top: 103%;
     left: 70%;
+    font-size: 113%;
 }
+
+
+.body_2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    height: 33%;
+    background: aqua;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+
+}
+
+
+
+/*@media only screen and (max-width: 3000px) and (min-width: 2200px)  {...} */
+ @media only screen and (min-width: 2200px) { 
+    .heading::before{
+        background-repeat: repeat; 
+    }
+
+    .navbar li a {
+        font-size: 2em;
+    }
+
+    .logo{
+        width: 19%;
+    }
+
+    .heading h3 {
+        font-size: 3rem;
+    }
+
+    .Skills-1,.Skills-2,.Skills-3,.Skills-h2 {
+        font-size: 2rem;
+    }
+
+    .MySelf p,.MySelf-h2 {
+        font-size: 2rem;
+    }
+
+    .MoreAboutMe p,.MoreAboutMe-h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
